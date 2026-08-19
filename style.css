@@ -143,6 +143,29 @@ header {
   color: #3d352e;
 }
 
+/* ---------- SECTION TITLES ---------- */
+.section-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  letter-spacing: -0.5px;
+  color: #2c241e;
+}
+
+.section-sub {
+  color: #5a4e45;
+  margin-bottom: 32px;
+  font-size: 1.1rem;
+}
+
+.section-title .primary {
+  color: #b97d7b;
+}
+
+.section-title .highlight {
+  color: #928e5e;
+}
+
 /* ---------- HERO ---------- */
 .hero {
   padding: 100px 0 80px;
@@ -182,29 +205,6 @@ header {
   background: #575527;
   margin: 0 auto 24px;
   border-radius: 4px;
-}
-
-/* ---------- SECTION TITLES ---------- */
-.section-title {
-  font-size: 2.4rem;
-  font-weight: 700;
-  margin-bottom: 8px;
-  letter-spacing: -0.5px;
-  color: #2c241e;
-}
-
-.section-sub {
-  color: #5a4e45;
-  margin-bottom: 32px;
-  font-size: 1.1rem;
-}
-
-.section-title .primary {
-  color: #b97d7b;
-}
-
-.section-title .highlight {
-  color: #928e5e;
 }
 
 /* ---------- ABOUT ---------- */
