@@ -496,7 +496,7 @@ footer .copy {
 
 .card-img.c4 { background: linear-gradient(145deg, #b97d7b, #575527); }
 
-/* ---------- POP-UPS (CSS-only) ---------- */
+/* ---------- POP-UPS ---------- */
 .popup {
   display: none;
   position: fixed;
@@ -587,5 +587,69 @@ footer .copy {
   100% {
     opacity: 1;
     transform: translateY(0) scale(1);
+  }
+}
+
+/* ---------- MAKE RESPONSIVE ---------- */
+
+@media (max-width: 768px) {
+  
+  .hero h1 {
+    font-size: 2.4rem;
+  }
+
+  .hero .tagline {
+    font-size: 1.1rem;
+  }
+
+  .header-inner {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-links {
+    gap: 18px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .subscribe-form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .subscribe-form input[type="email"] {
+    width: 100%;
+    flex: none;
+    height: auto;
+  }
+
+  .popup-box {
+    padding: 28px 20px;
+    width: 95%;
+  }
+
+  .popup-box h2 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .btn {
+    padding: 8px 20px;
+    font-size: 0.9rem;
   }
 }
