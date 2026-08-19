@@ -238,10 +238,17 @@ header {
 .recent .section-title {
   text-align: center;
 }
+ 
+.recent .section-sub { 
+    text-align: center; 
+}
 
 .center-btn {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 40px;
+  width: 100%;
 }
 
 /* ---------- CARDS ---------- */
