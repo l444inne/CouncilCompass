@@ -67,6 +67,13 @@ header {
   color: #b97d7b;
 }
 
+.site-logo {
+  height: 32px;
+  width: auto;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
 .nav-links {
   display: flex;
   gap: 28px;
