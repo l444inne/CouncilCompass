@@ -200,7 +200,7 @@ header {
 }
 
 .section-title .highlight {
-  color: #ecc4c3;
+  color: #ecc4c3; /* Lighter pink for subscribe highlight */
 }
 
 /* ---------- ABOUT ---------- */
@@ -379,4 +379,68 @@ footer {
 footer .copy {
   opacity: 0.8;
   font-size: 0.95rem;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 14px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  transition: all 0.25s ease;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  text-decoration: none;
+}
+
+.social-icon {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+  display: block;
+  transition: all 0.25s ease;
+}
+
+.social-link svg {
+  display: block;
+  width: 26px;
+  height: 26px;
+}
+
+.social-link:hover {
+  transform: translateY(-4px);
+  background: rgba(255, 255, 255, 0.18);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.social-link.instagram:hover {
+  background: rgba(225, 48, 108, 0.25);
+  border-color: #e1306c;
+}
+
+.social-link.instagram:hover .social-icon {
+  filter: brightness(0) invert(1) drop-shadow(0 0 6px rgba(225, 48, 108, 0.5));
+}
+
+.social-link.facebook:hover {
+  background: rgba(24, 119, 242, 0.25);
+  border-color: #1877f2;
+}
+
+.social-link.facebook:hover .social-icon {
+  filter: brightness(0) invert(1) drop-shadow(0 0 6px rgba(24, 119, 242, 0.5));
+}
+
+.social-link.github:hover {
+  color: #f0f0f0;
+  background: rgba(255, 255, 255, 0.15);
+  border-color: #f0f0f0;
 }
