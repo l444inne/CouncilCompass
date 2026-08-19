@@ -9,6 +9,7 @@ CouncilCompass/
 ├── articles.html (full list of articles with pop-ups!)
 ├── style.css (main stylesheet)
 ├── images/ (icons used)
+│   ├── CouncilCompass-logo.png
 │   ├── instagram-icon.png
 │   ├── facebook-icon.png
 │   ├── leadership-icon.png
