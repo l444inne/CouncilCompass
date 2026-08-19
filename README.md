@@ -18,6 +18,8 @@ CouncilCompass/
 └── README.md (this file)
 ```
 
-## Submitted by
-  Lourainne D. Flores
-  BSCS-3A
+## Submitted by:
+
+Lourainne D. Flores
+
+BSCS-3A
