@@ -32,6 +32,10 @@ a:hover {
   padding: 0 20px;
 }
 
+#home, #about, #articles, #contact {
+  scroll-margin-top: 100px;
+}
+
 /* ---------- HEADER ---------- */
 header {
   background: rgba(221, 211, 201, 0.65);
@@ -653,3 +657,4 @@ footer .copy {
     font-size: 0.9rem;
   }
 }
+
