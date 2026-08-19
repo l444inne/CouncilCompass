@@ -18,33 +18,67 @@ body {
   padding: 0 20px;
 }
 
-/* --- HEADER LAYOUT --- */
+/* ---------- HEADER ---------- */
 header {
-  background: #fff;
-  border-bottom: 1px solid #ccc;
+  background: rgba(221, 211, 201, 0.65);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 2px 12px rgba(146, 142, 94, 0.08);
+  padding: 14px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid rgba(185, 125, 123, 0.15);
 }
 
 .header-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 14px 0;
   flex-wrap: wrap;
 }
 
 .logo {
   font-size: 1.6rem;
   font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #3d352e;
+}
+
+.logo span {
+  color: #b97d7b;
 }
 
 .nav-links {
   display: flex;
   gap: 28px;
+  font-weight: 500;
 }
 
 .nav-links a {
-  color: #333;
+  color: #3d352e;
+  font-size: 1rem;
+  position: relative;
   text-decoration: none;
+}
+
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #575527;
+  transition: width 0.2s;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+.nav-links a:hover {
+  color: #b97d7b;
 }
 
 /* --- SECTION LAYOUTS --- */
